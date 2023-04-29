@@ -3,7 +3,7 @@ import Header from './Header';
 import Jumbotron from './Jumbotron';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
-import Sections from './Sections';
+import MainSection from './MainSection';
 
 class MainComponent extends Component {
   render() {
@@ -15,7 +15,7 @@ class MainComponent extends Component {
 
         <div className="row">
           <div className="col-lg-8">
-            <Sections />
+            <MainSection />
           </div>
           <div className="col-lg-4">
             <Sidebar />
